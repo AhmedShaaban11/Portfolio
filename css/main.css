@@ -1,11 +1,9 @@
-/* import font roboto */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 * {
     box-sizing: border-box;
     font-family: "Roboto", Arial, Helvetica, sans-serif;
     --footer-height: 50px;
-    /* --palette-color: #2196f3; */
     --palette-color: #009688;
     transition: all 25ms ease-in-out;
 }
