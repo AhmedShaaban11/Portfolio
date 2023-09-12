@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/6b0af4bcb3.js" crossorigin="anonymous"></script>
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home" class="link active"><i class="fa fa-home"></i></a></li>
+            <li><a href="#about" class="link"><i class="fas fa-info-circle"></i></a></li>
+            <li><a href="#skills" class="link"><i class="fa fa-bolt"></i></a></li>
+            <li><a href="#projects" class="link"><i class="fa fa-code"></i></a></li>
+        </ul>
+    </nav>
+    <header class="home visible-section" id="home">
+        <div class="container">
+            <h1><span class="first-word">Ahmed</span> Mohammed Shaaban</h1>
+            <p>CS Student . Software Engineer</p>
+            <div class="links">
+                <a href="mailto:ahmed.shaaban.fcai@gmail.com" class="link"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/ahmed-shaaban-a3432a263" class="link"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/AhmedShaaban11" class="link"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </header>
+    <section class="about" id="about">
+        <div class="container">
+            <div class="content">
+                <h2>About Me</h2>
+                <p>I am Ahmed, a third year student in the Faculty of Computer Science, for the past two years I have done my studies hard in this field, and managed to get a GPA = 3.75.</p>
+                <p>I studied many subjects related to software engineering and got high marks in them.</p>
+                <p>In addition to the college, I was building myself to become qualified for the market, so I watched many courses and built many projects, and I joined the ICPC community in the college, and this contributed to the development of my level in algorithms, data structures, and problem-solving.</p>
+                <p>Currently learning backend with node.js, express.js, and mongodb.</p>
+                <a href="files/resume.pdf" class="link" download><i class="fa fa-download"></i>Resume</a>
+                <a href="files/cover_letter.txt" class="link" download><i class="fa fa-download"></i>Cover Letter</a>
+            </div>
+            <div class="photo">
+                <img src="images/face.png" alt="Ahmed Mohammed Shaaban">
+            </div>
+        </div>
+    </section>
+    <section class="skills" id="skills">
+        <h2>Skills</h2>
+        <div class="container">
+            <div class="group">
+                <h3 class="title">Front-End Technologies</h3>
+                <ul>
+                    <li class="skill">Html</li>
+                    <li class="skill">Css</li>
+                    <li class="skill">Js</li>
+                </ul>
+            </div>
+            <div class="group">
+                <h3 class="title">Back-End Technologies</h3>
+                <ul>
+                    <li class="skill">Node.js</li>
+                    <li class="skill">Express.js</li>
+                    <li class="skill">SQL</li>
+                </ul>
+            </div>
+            <div class="group">
+                <h3 class="title">Programming Languages</h3>
+                <ul>
+                    <li class="skill">C++</li>
+                    <li class="skill">Java</li>
+                    <li class="skill">Python</li>
+                    <li class="skill">JavaScript</li>
+                </ul>
+            </div>
+            <div class="group">
+                <h3 class="title">Others</h3>
+                <ul>
+                    <li class="skill">Data Structures</li>
+                    <li class="skill">Algorithms</li>
+                    <li class="skill">Problem Solving</li>
+                    <li class="skill">Git/Github</li>
+                    <li class="skill">Gitflow</li>
+                    <li class="skill">OOP</li>
+                    <li class="skill">JSON</li>
+                </ul>
+            </div>
+            <div class="group">
+                <h3 class="title">Languages</h3>
+                <ul>
+                    <li class="skill">Arabic</li>
+                    <li class="skill">English</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="projects" id="projects">
+        <h2>Projects</h2>
+        <div class="container">
+            <div class="project">
+                <h3 class="title">Candy Store</h3>
+                <p class="description">Simple candy store application where customers can shop using a shopping cart, search for products filtered by name, categories, and brand, and checkout.</p>
+                <div class="tools-container">
+                    <h4>Tools</h4>
+                    <ul>
+                        <li>Java</li>
+                        <li>SQL</li>
+                    </ul>
+                </div>
+                <h4>Features</h4>
+                <ul class="features">
+                    <li>Used JDBC to connect to the sqlite and perform CRUD operations.</li>
+                    <li>Used JavaMail API to activate customers' accounts with an OTP.</li>
+                    <li>Applied OOP concepts to implement the application.</li>
+                    <li>Used a class diagram to model the application classes.</li>
+                </ul>
+                <div class="link-container">
+                    <a href="https://github.com/Hackers-of-The-Day-and-Night/Toffee" class="link"><i class="fa fa-external-link"></i>Github Repo</a>
+                </div>
+            </div>
+            <div class="project">
+                <h3 class="title">Student Affairs Website</h3>
+                <p class="description">Website for student affairs to handle personal students information and register students into departments.</p>
+                <div class="tools-container">
+                    <h4>Tools</h4>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>JSON</li>
+                        <li>Django</li>
+                        <li>Sqlite</li>
+                    </ul>
+                </div>
+                <h4>Features</h4>
+                <ul class="features">
+                    <li>Employees could perform CRUD operations on students' information</li>
+                    <li>Used Fetch API to GET/POST data from/to Django server-side</li>
+                    <li>Ensured data integrity</li>
+                    <li>Applied MVC design pattern</li>
+                </ul>
+                <div class="link-container">
+                    <a href="https://github.com/Hackers-of-The-Day-and-Night/Student-Affairs-Website" class="link"><i class="fa fa-external-link"></i>Github Repo</a>
+                </div>
+            </div>
+            <div class="project">
+                <h3 class="title">Ask Me</h3>
+                <p class="description">A Q&A console application.</p>
+                <div class="tools-container">
+                    <h4>Tools</h4>
+                    <ul>
+                        <li>C++</li>
+                        <li>CSV Files</li>
+                    </ul>
+                </div>
+                <h4>Features</h4>
+                <ul class="features">
+                    <li>Users can view the feed, ask and answer questions.</li>
+                    <li>Threads made available to users to discuss questions.</li>
+                    <li>Created a namespace with general-purpose functions.</li>
+                    <li>Used basic OOP concepts to implement the application.</li>
+                </ul>
+                <div class="link-container">
+                    <a href="https://github.com/AhmedShaaban11/AskMe" class="link"><i class="fa fa-external-link"></i>Github Repo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p> All rights reserved © 2023 Ahmed Mohammed Shaaban</p>
+    </footer>
+</body>
+</html>
